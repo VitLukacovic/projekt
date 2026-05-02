@@ -2,7 +2,7 @@
 
 ## Popis
 
-Tento projekt se zabývá řešením (hledáním nejkratší cesty) a také základním generováním bludišť. Základním vstupem bude bludiště $n\times n$ z csv souboru,přičemž vstup do bludiště bude vždy levý horní roh a výstup bude vždy pravý dolní roh. Z jedné buňky do druhé se lze dostat pouze přes společnou hranu (nikoliv přes roh).
+Tento projekt se zabývá řešením (hledáním nejkratší cesty) a také základním generováním bludišť. Základním vstupem bude bludiště $n\times n$ z csv souboru, přičemž vstup do bludiště bude vždy levý horní roh a výstup bude vždy pravý dolní roh. Z jedné buňky do druhé se lze dostat pouze přes společnou hranu (nikoliv přes roh).
 
 Nahrané bludiště se pak načte jako Numpy matice s hodnotami true/false, kde true = průchozí cesta, false = stěna.
 
