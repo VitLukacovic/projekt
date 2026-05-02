@@ -34,6 +34,7 @@ Výstup je ve formě obrázku (černá = stěna, bílá = průchozí cesta, čer
     - Vstup: celočíselný rozměr, "název šablony", celočícelý počet přidání náhodných stěn
     - Výchozí hodnoty: šablona = "empty", náhodé stěny = 50
     - šablony na výběr: empty, slalom, X, +, mrizka
+    - při napsání špatného názvu šablony se napíše chybová hláška
 
   - save_to_image(self, output_path: str = "saved_maze.png", scale: int = 20)
     - Vstup: "cesta a název obrázku", škála
