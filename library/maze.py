@@ -201,6 +201,8 @@ class Maze:
     def generate_maze(self, size: int, template: str = "empty", fill_attempts: int = 50) -> None:
         """
         Vygeneruje řešitelné bludiště použití šablony a přidáváním náhodných stěn.
+            Možnosti jsou: 'empty', 'slalom', 'X', '+', 'mrizka'.
+            Výchozí je 'empty'.
         """
         self.grid = np.zeros((size, size), dtype=bool)
         self._apply_template(template)
